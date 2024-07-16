@@ -1,0 +1,33 @@
+.custom-form .form-control, 
+ .custom-form .custom-select {
+      border-radius: 0;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+.custom-form .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+.custom-form .form-control:focus, 
+.custom-form .custom-select:focus {
+      box-shadow: none;
+      border-color: #007bff;
+    }
+    .custom-table th, .custom-table td {
+        border: 2px solid #000;
+        padding: 10px;
+        text-align: center;
+      }
+  
+      .custom-table th {
+        background-color: #f8f9fa;
+      }
+
+.error{
+  text-align: center;
+  color: red ;
+
+}
+.errReg{
+  text-align: center;
+}
